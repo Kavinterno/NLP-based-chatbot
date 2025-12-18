@@ -1,0 +1,591 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?",
+        "Can someone assist me?",
+        "Hi, I need help",
+        "Hello, I have a question"
+      ],
+      "responses": [
+        "Hello! Welcome to SKS Sweets and Cakes. How can I assist you today?",
+        "Hi there! Thanks for reaching out to SKS Sweets and Cakes. What can I help you with?",
+        "Good day! How may I support you today at SKS Sweets and Cakes?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, bye",
+        "Talk to you later",
+        "I'm done, bye"
+      ],
+      "responses": [
+        "Thank you for contacting SKS Sweets and Cakes. Have a great day!",
+        "We appreciate your time! Visit SKS Sweets and Cakes again soon.",
+        "Goodbye! Feel free to reach out anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That was helpful",
+        "Great, thanks!",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "Glad I could assist you.",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "sweets_menu",
+      "patterns": [
+        "menu",
+        "sweets menu",
+        "What sweets do you have?",
+        "Show me your sweet menu",
+        "What items are available?",
+        "Do you sell sweets?",
+        "Can I see your sweets list?"
+      ],
+      "responses": [
+        "We offer Gulab Jamun, Rasgulla, Kaju Katli, Mysore Pak, Ladoo, Barfi, Halwa items and many more at SKS Sweets and Cakes.",
+        "We have traditional, premium, and festival sweets available. Would you like the full menu?",
+        "Our sweets include milk sweets, ghee sweets, and dry fruit varieties."
+      ]
+    },
+    {
+      "tag": "availability_gulab_jamun",
+      "patterns": [
+        "Do you have Gulab Jamun?",
+        "Is Gulab Jamun available today?",
+        "Can I get Gulab Jamun now?",
+        "Do you sell Gulab Jamun?",
+        "I want to buy Gulab Jamun, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Gulab Jamun available today at SKS Sweets and Cakes.",
+        "Gulab Jamun is in stock right now. Would you like to place an order?",
+        "We do offer Gulab Jamun. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_kaju_katli",
+      "patterns": [
+        "Do you have Kaju Katli?",
+        "Is Kaju Katli available today?",
+        "Can I get Kaju Katli now?",
+        "Do you sell Kaju Katli?",
+        "I want to buy Kaju Katli, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Kaju Katli available today at SKS Sweets and Cakes.",
+        "Kaju Katli is in stock right now. Would you like to place an order?",
+        "We do offer Kaju Katli. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_rasgulla",
+      "patterns": [
+        "Do you have Rasgulla?",
+        "Is Rasgulla available today?",
+        "Can I get Rasgulla now?",
+        "Do you sell Rasgulla?",
+        "I want to buy Rasgulla, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Rasgulla available today at SKS Sweets and Cakes.",
+        "Rasgulla is in stock right now. Would you like to place an order?",
+        "We do offer Rasgulla. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_mysore_pak",
+      "patterns": [
+        "Do you have Mysore Pak?",
+        "Is Mysore Pak available today?",
+        "Can I get Mysore Pak now?",
+        "Do you sell Mysore Pak?",
+        "I want to buy Mysore Pak, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Mysore Pak available today at SKS Sweets and Cakes.",
+        "Mysore Pak is in stock right now. Would you like to place an order?",
+        "We do offer Mysore Pak. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_badusha",
+      "patterns": [
+        "Do you have Badusha?",
+        "Is Badusha available today?",
+        "Can I get Badusha now?",
+        "Do you sell Badusha?",
+        "I want to buy Badusha, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Badusha available today at SKS Sweets and Cakes.",
+        "Badusha is in stock right now. Would you like to place an order?",
+        "We do offer Badusha. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_milk_cake",
+      "patterns": [
+        "Do you have Milk Cake?",
+        "Is Milk Cake available today?",
+        "Can I get Milk Cake now?",
+        "Do you sell Milk Cake?",
+        "I want to buy Milk Cake, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Milk Cake available today at SKS Sweets and Cakes.",
+        "Milk Cake is in stock right now. Would you like to place an order?",
+        "We do offer Milk Cake. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_ladoo",
+      "patterns": [
+        "Do you have Ladoo?",
+        "Is Ladoo available today?",
+        "Can I get Ladoo now?",
+        "Do you sell Ladoo?",
+        "I want to buy Ladoo, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Ladoo available today at SKS Sweets and Cakes.",
+        "Ladoo is in stock right now. Would you like to place an order?",
+        "We do offer Ladoo. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_soan_papdi",
+      "patterns": [
+        "Do you have Soan Papdi?",
+        "Is Soan Papdi available today?",
+        "Can I get Soan Papdi now?",
+        "Do you sell Soan Papdi?",
+        "I want to buy Soan Papdi, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Soan Papdi available today at SKS Sweets and Cakes.",
+        "Soan Papdi is in stock right now. Would you like to place an order?",
+        "We do offer Soan Papdi. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_barfi",
+      "patterns": [
+        "Do you have Barfi?",
+        "Is Barfi available today?",
+        "Can I get Barfi now?",
+        "Do you sell Barfi?",
+        "I want to buy Barfi, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Barfi available today at SKS Sweets and Cakes.",
+        "Barfi is in stock right now. Would you like to place an order?",
+        "We do offer Barfi. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_dry_fruit_barfi",
+      "patterns": [
+
+        "Do you have Dry Fruit Barfi?",
+        "Is Dry Fruit Barfi available today?",
+        "Can I get Dry Fruit Barfi now?",
+        "Do you sell Dry Fruit Barfi?",
+        "I want to buy Dry Fruit Barfi, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Dry Fruit Barfi available today at SKS Sweets and Cakes.",
+        "Dry Fruit Barfi is in stock right now. Would you like to place an order?",
+        "We do offer Dry Fruit Barfi. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_rasmalai",
+      "patterns": [
+        "rasmalai",
+        "Do you have Rasmalai?",
+        "Is Rasmalai available today?",
+        "Can I get Rasmalai now?",
+        "Do you sell Rasmalai?",
+        "I want to buy Rasmalai, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Rasmalai available today at SKS Sweets and Cakes.",
+        "Rasmalai is in stock right now. Would you like to place an order?",
+        "We do offer Rasmalai. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_ghee_mysore_pak",
+      "patterns": [
+        "Do you have Ghee Mysore Pak?",
+        "Is Ghee Mysore Pak available today?",
+        "Can I get Ghee Mysore Pak now?",
+        "Do you sell Ghee Mysore Pak?",
+        "I want to buy Ghee Mysore Pak, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Ghee Mysore Pak available today at SKS Sweets and Cakes.",
+        "Ghee Mysore Pak is in stock right now. Would you like to place an order?",
+        "We do offer Ghee Mysore Pak. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_kalakand",
+      "patterns": [
+        "Do you have Kalakand?",
+        "Is Kalakand available today?",
+        "Can I get Kalakand now?",
+        "Do you sell Kalakand?",
+        "I want to buy Kalakand, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Kalakand available today at SKS Sweets and Cakes.",
+        "Kalakand is in stock right now. Would you like to place an order?",
+        "We do offer Kalakand. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "availability_coconut_ladoo",
+      "patterns": [
+        "Do you have Coconut Ladoo?",
+        "Is Coconut Ladoo available today?",
+        "Can I get Coconut Ladoo now?",
+        "Do you sell Coconut Ladoo?",
+        "I want to buy Coconut Ladoo, is it available?"
+      ],
+      "responses": [
+        "Yes, we have fresh Coconut Ladoo available today at SKS Sweets and Cakes.",
+        "Coconut Ladoo is in stock right now. Would you like to place an order?",
+        "We do offer Coconut Ladoo. Let me know the quantity you need."
+      ]
+    },
+    {
+      "tag": "bulk_orders",
+      "patterns": [
+        "Do you take bulk orders?",
+        "Can I place a wedding sweet order?",
+        "Do you offer catering sweets?",
+        "How to book large quantity sweets?",
+        "Do you provide delivery for bulk orders?"
+      ],
+      "responses": [
+        "Yes, SKS Sweets and Cakes accepts bulk and wedding orders. Please share the quantity and date.",
+        "We provide delivery for bulk and catering orders. Let me know your requirement.",
+        "Bulk orders are available with advance booking. How many kilograms do you need?"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "payment",
+        "Do you take UPI?",
+        "Do you accept cards?",
+        "What payment methods are available?",
+        "Can I pay online?",
+        "Is cash accepted?"
+      ],
+      "responses": [
+        "We accept cash, UPI, debit/credit cards, and online payment methods.",
+        "Yes, you can pay using any major digital payment method.",
+        "We support UPI, cards, and cash for all orders."
+      ]
+    },
+    {
+      "tag": "pickup_policy",
+      "patterns": [
+        "Do you have pickup service?",
+        "Can I collect my order at the shop?",
+        "Do you offer self pickup?",
+        "Where do I pick up my sweets?",
+        "Is pickup available for online orders?"
+      ],
+      "responses": [
+        "Yes, all regular orders at SKS Sweets and Cakes are pickup only.",
+        "You can collect your order directly from our store counter.",
+        "Pickup is available anytime during working hours."
+      ]
+    },
+    {
+      "tag": "delivery_bulk_only",
+      "patterns": [
+        "delivery",
+        "Do you deliver?",
+        "Is delivery available?",
+        "Do you deliver sweets?",
+        "Do you offer home delivery?",
+        "Can I get delivery for my order?"
+      ],
+      "responses": [
+        "Delivery is available only for bulk, catering, and wedding orders.",
+        "Regular orders are pickup only, but we provide delivery for bulk orders.",
+        "Please share your quantity and location to check bulk delivery availability."
+      ]
+    },
+    {
+      "tag": "shop_timings",
+      "patterns": [
+        "What are your working hours?",
+        "What time do you open?",
+        "What time do you close?",
+        "Are you open today?",
+        "Store timings please",
+        "When is SKS Sweets and Cakes open?"
+      ],
+      "responses": [
+        "SKS Sweets and Cakes is usually open from morning till late evening. For today's exact timings, please contact the store directly.",
+        "We are open all days in general, with extended hours during festivals. You can call the shop for today's schedule.",
+        "Our shop runs throughout the day with a short break in the afternoon. For precise timings, please check with the store."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "location of shop",
+        "Where are you located?",
+        "What is your shop address?",
+        "How do I reach SKS Sweets and Cakes?",
+        "Share your location",
+        "Send me the address",
+        "Where is your store?"
+      ],
+      "responses": [
+        "You can find SKS Sweets and Cakes by searching our name on Google Maps. It will show the exact route and address.",
+        "Our full address is available on Google Maps under 'SKS Sweets and Cakes'. Please use it for the most accurate directions.",
+        "For location and directions to SKS Sweets and Cakes, please check Google Maps or contact the store directly."
+      ]
+    },
+    {
+      "tag": "cakes_menu",
+      "patterns": [
+        "cakes menu",
+        "menu",
+        "items",
+        "What cakes do you have?",
+        "Show me your cake menu",
+        "Do you sell cakes?",
+        "What cake varieties are available?",
+        "List your cake options",
+        "What flavours of cake do you have?"
+      ],
+      "responses": [
+        "We offer fresh cream cakes, chocolate cakes, butterscotch, black forest, white forest, fruit cakes, and more at SKS Sweets and Cakes.",
+        "Our cake range includes regular, premium, and designer cakes. You can choose from chocolate, vanilla, butterscotch, red velvet, and more.",
+        "We have birthday cakes, anniversary cakes, kids' theme cakes, and special occasion cakes. Let me know what type you’re looking for."
+      ]
+    },
+    {
+      "tag": "eggless_cakes",
+      "patterns": [
+        "without egg",
+        "Do you have eggless cakes?",
+        "Are eggless cakes available?",
+        "Can I get an eggless cake?",
+        "Do you make eggless birthday cakes?",
+        "Is eggless option available for cakes?"
+      ],
+      "responses": [
+        "Yes, we do offer eggless cakes at SKS Sweets and Cakes. Please mention 'eggless' while placing your order.",
+        "Eggless options are available for most of our cake flavours. Let me know the flavour and size you want.",
+        "We make eggless birthday, anniversary, and custom cakes as well. Share your requirement and we’ll help you out."
+      ]
+    },
+    {
+      "tag": "custom_cake_order",
+      "patterns": [
+        "Can I customize a cake?",
+        "Do you take custom cake orders?",
+        "I want a photo cake",
+        "Do you make theme cakes?",
+        "Can I get a cake with a custom design?",
+        "Do you do name and photo cakes?"
+      ],
+      "responses": [
+        "Yes, we accept custom cake orders including photo cakes and theme cakes. Please share the design, flavour, size, and date.",
+        "We can customise cakes with names, photos, themes, and special messages. For final confirmation, the shop team will coordinate the details.",
+        "Custom cakes are made on pre-order. Kindly provide the design reference and required delivery or pickup date in advance."
+      ]
+    },
+    {
+      "tag": "price_enquiry",
+      "patterns": [
+        "price",
+        "What is the price of your sweets?",
+        "How much does Gulab Jamun cost?",
+        "Cake price please",
+        "Rate list of sweets",
+        "Can you share your prices?",
+        "How much per kg for sweets?"
+      ],
+      "responses": [
+        "Please  check website to get the latest price list.",
+        "Prices vary based on the sweet or cake type, flavour, and weight. For the latest rate list, please contact SKS Sweets and Cakes directly.",
+        "Our prices depend on variety and quantity. It’s best to check with the store for current rates and any ongoing offers.",
+        "For exact pricing per kg or per cake, kindly call or visit SKS Sweets and Cakes. The team will share the updated price details."
+      ]
+    },
+    {
+      "tag": "order_process",
+      "patterns": [
+        "How do I place an order?",
+        "How can I order sweets?",
+        "How to order a cake?",
+        "Can I order in advance?",
+        "What is the process to book sweets?"
+      ],
+      "responses": [
+        "You can place an order by visiting SKS Sweets and Cakes directly, or by calling the shop to confirm your items and pickup time.",
+        "For advance orders, please contact the store, share your items, quantity, date, and time, and confirm availability.",
+        "Order process is simple: choose items, confirm quantity and date with the shop, and then pay during pickup or as instructed by the store."
+      ]
+    },
+    {
+      "tag": "order_modification_cancellation",
+      "patterns": [
+        "Can I change my order?",
+        "I want to modify my order",
+        "Can I cancel my order?",
+        "I made a mistake in my order",
+        "Is it possible to update my order details?"
+      ],
+      "responses": [
+        "Order changes or cancellations depend on the time left and preparation status. Please contact SKS Sweets and Cakes as soon as possible.",
+        "If your order is not yet prepared, the shop may allow modifications. Kindly call the store directly to check.",
+        "For any changes or cancellations, reach out to the store with your order details. They will guide you based on the situation."
+      ]
+    },
+    {
+      "tag": "storage_shelf_life",
+      "patterns": [
+        "How long do your sweets stay fresh?",
+        "Shelf life of sweets",
+        "How to store your sweets?",
+        "Do I need to refrigerate the sweets?",
+        "How long can I keep the cake?"
+      ],
+      "responses": [
+        "Most milk-based sweets and cream cakes are best consumed within 1–2 days and should be refrigerated. Dry sweets usually last longer.",
+        "For best taste and quality, we recommend consuming fresh sweets and cakes on the same day or as advised on purchase.",
+        "Storage and shelf life vary by item. The shop staff will guide you at the time of purchase based on what you’ve bought."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "offer",
+        "Do you have any offers?",
+        "Are there any discounts?",
+        "Any special deals today?",
+        "Do you give festival offers?",
+        "Is there any combo offer on sweets?"
+      ],
+      "responses": [
+        "Offers and discounts may be available during special occasions and festivals. Please check with SKS Sweets and Cakes for current deals.",
+        "We sometimes provide special packs and offers for bulk or festival orders. Contact the store to know what’s available now.",
+        "Discounts depend on ongoing promotions and quantity. For exact details, its best to speak with the shop team."
+      ]
+    },
+    {
+      "tag": "festival_specials",
+      "patterns": [
+        "Do you have Diwali special sweets?",
+        "Festival sweets available?",
+        "Do you make special items for festivals?",
+        "Any special sweets for Pongal?",
+        "Do you have festival gift boxes?"
+      ],
+      "responses": [
+        "Yes, during major festivals we prepare special sweets, gift boxes, and bulk packs at SKS Sweets and Cakes.",
+        "We offer festival-specific sweets and assorted boxes. For current festival items, please check with the shop.",
+        "Gift packs, assorted sweet boxes, and special items are usually available for festivals. You can pre-book for large quantities."
+      ]
+    },
+    {
+      "tag": "online_platforms",
+      "patterns": [
+        "online order",
+        "Are you on Swiggy or Zomato?",
+        "Can I order through a food app?",
+        "Do you deliver via Swiggy?",
+        "Is SKS Sweets and Cakes available online?",
+        "Can I order your sweets online?"
+      ],
+      "responses": [
+        "Online availability through apps like Swiggy or Zomato depends on your area. Please check those apps and search for SKS Sweets and Cakes.",
+        "You can open your favourite food delivery app and search for SKS Sweets and Cakes to see if we’re available in your location.",
+        "For the most accurate info on online ordering, please check Swiggy/Zomato or contact the store directly."
+      ]
+    },
+    {
+      "tag": "hygiene_quality",
+      "patterns": [
+        "quality",
+        "Are your sweets hygienic?",
+        "What about quality and hygiene?",
+        "Do you maintain cleanliness?",
+        "Is your food prepared safely?",
+        "Are your ingredients fresh?"
+      ],
+      "responses": [
+        "At SKS Sweets and Cakes, we focus on hygiene and quality, using fresh ingredients and maintaining clean preparation areas.",
+        "Our sweets and cakes are prepared with proper hygiene standards and quality checks.",
+        "We take cleanliness seriously and use good-quality ingredients to ensure safe and tasty products."
+      ]
+    },
+    {
+      "tag": "complaints_feedback",
+      "patterns": [
+        "worst taste",
+        "worst",
+        "I have a complaint",
+        "I am not happy with my order",
+        "How can I give feedback?",
+        "I want to report an issue",
+        "Where can I share my experience?"
+      ],
+      "responses": [
+        "We’re sorry to hear that. Please contact SKS Sweets and Cakes directly with your order details so the team can assist you.",
+        "Your feedback is important to us. Kindly speak to the store or call the contact number on your bill to share the issue.",
+        "For complaints or suggestions, please reach out to the shop management. They’ll try their best to resolve your concern."
+      ]
+    },
+    {
+      "tag": "contact_details",
+      "patterns": [
+        "number",
+        "What is your contact number?",
+        "How can I call the shop?",
+        "Give me your phone number",
+        "How do I contact SKS Sweets and Cakes?",
+        "Share your contact details"
+      ],
+      "responses": [
+        "You can find the current contact number of SKS Sweets and Cakes on Google Maps or on our bill/receipt.",
+        "For the latest phone number and contact details, please search 'SKS Sweets and Cakes' on Google Maps.",
+        "Our contact details are listed online. Kindly check Google Maps or any official listing for SKS Sweets and Cakes."
+      ]
+    }
+  
+  ]
+}
+
+   

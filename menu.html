@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - SKS Sweets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header (Same as index.html) -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>SKS Sweets</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Our Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <div class="container">
+            <h1>Our Delicious Menu</h1>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">All Items</button>
+                <button class="category-btn" data-category="sweets">Sweets</button>
+                <button class="category-btn" data-category="savories">Savories</button>
+            </div>
+            
+            <div class="menu-items">
+                <!-- Sweets -->
+                <div class="menu-category">
+                    <h2 class="category-title">Sweets</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item" data-category="sweets">
+                            <img src="images/gulab-jamun.jpg" alt="Gulab Jamun">
+                            <div class="item-details">
+                                <h3>Gulab Jamun</h3>
+                                <p>Soft milk dumplings in sugar syrup</p>
+                                <span class="price">₹400/kg</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item" data-category="sweets">
+                            <img src="images/jalebi.jpg" alt="Jalebi">
+                            <div class="item-details">
+                                <h3>Jalebi</h3>
+                                <p>Crispy, syrupy swirls made from fermented batter</p>
+                                <span class="price">₹350/kg</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item" data-category="sweets">
+                            <img src="images/laddu.jpg" alt="Laddu">
+                            <div class="item-details">
+                                <h3>Laddu</h3>
+                                <p>Round sweet balls made of flour, ghee, and sugar</p>
+                                <span class="price">₹450/kg</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item" data-category="sweets">
+                            <img src="images/mysore-pak.jpg" alt="Mysore Pak">
+                            <div class="item-details">
+                                <h3>Mysore Pak</h3>
+                                <p>Rich, dense sweet made from ghee, sugar, and chickpea flour</p>
+                                <span class="price">₹600/kg</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item" data-category="savories">
+                            <img src="images/mixture.jpg" alt="Mixture">
+                            <div class="item-details">
+                                <h3>Mixture</h3>
+                                <p>Crispy mix of fried lentils, peanuts, and spices</p>
+                                <span class="price">₹300/kg</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item" data-category="savories">
+                            <img src="images/murukku.jpg" alt="Murukku">
+                            <div class="item-details">
+                                <h3>Murukku</h3>
+                                <p>Crispy, crunchy rice and lentil snack</p>
+                                <span class="price">₹350/kg</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item" data-category="sweets">
+                            <img src="images/tirupati-laddu.jpg" alt="Tirupati Laddu">
+                            <div class="item-details">
+                                <h3>Tirupati Laddu</h3>
+                                <p>Famous sweet from Tirumala temple, made with besan and dry fruits</p>
+                                <span class="price">₹800/kg</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item" data-category="sweets">
+                            <img src="images/soan-papdi.jpg" alt="Soan Papdi">
+                            <div class="item-details">
+                                <h3>Soan Papdi</h3>
+                                <p>Flaky, crispy sweet made with sugar, ghee, and gram flour</p>
+                                <span class="price">₹500/kg</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more categories as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Mangalampalayam, City, India</p>
+                    <p><i class="fas fa-phone"></i> +91 12345 67890</p>
+                    <p><i class="fas fa-envelope"></i> info@manakadavujamin.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SKS Sweets and Cakes. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-widget">
+        <div class="chatbot-header">
+            <div class="chatbot-title">
+                <i class="fas fa-robot"></i>
+                <span>Sweets Assistant</span>
+            </div>
+            <button class="chatbot-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-messages">
+            <div class="message bot-message">
+                <div class="message-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="message-content">
+                    <p>Hello! I'm your sweets assistant. How can I help you today? 😊</p>
+                </div>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" placeholder="Type your message..." id="userMessage">
+            <button id="sendMessage">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    <button class="chatbot-toggle">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
